@@ -1,20 +1,81 @@
 /* Здесь вы напишете основную часть стилей страницы.
 
 Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ theme-dark — класс тёмной темы
-✦ theme-light — класс светлой темы
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
+✦ .theme-dark — класс тёмной темы +
+✦ .theme-light — класс светлой темы +
+✦ .like-icon — для svg-иконки анимированного сердца
+✦ .card__like-button — для кнопки Like рядом с иконкой
+✦ .card__icon-button — для кнопки, оборачивающей иконку
+✦ .card__icon-button — для кнопки, оборачивающей иконку
+✦ .is-liked — для обозначения состояния лайкнутой иконки в виде сердца
+✦ .button__text — для обозначения текстового элемента внутри кнопки +
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
 
 .page {
+  font-family: var(--fonts, 'Inter', Arial, sans-serif);
+  font-variation-settings: 'wdth' 110, 'wght' var(--font-wght-text), 'opsz' 0, 'slnt' 0;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  background-color: var(--bg-color);
+  background-attachment: fixed;
+  background-image: 
+  repeating-linear-gradient(90deg, var(--rlg-1-1-color), transparent 2px),
+  repeating-linear-gradient(180deg, var(--rlg-2-1-color), var(--rlg-2-2-color) 2px);
+  background-size: cover;
+}
+/*
+.block {
+  width: 500;
+  height: 600;
+  border: 1px solid #ff0000;
+}
+
+
+.accent {
+  color: var(--text-color);
+}
+.title {
+  color: var(--accent-color);
+  font-weight: var(--font-wght-title);
+}
+*/
+
+@media (width <= 375px) {
+
+}
+
+.theme-dark {
+
+}
+
+.theme-light {
+
+}
+
+.button__text {
+  
+}
+
+.like-icon {
+
+}
+
+.card__like-button {
+
+}
+
+.card__icon-button {
+
+}
+
+.is-liked {
+
+}
+
+.floppy-svg {
+  height: auto;
+  width: 21px;
 }

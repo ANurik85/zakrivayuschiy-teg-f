@@ -1,1 +1,57 @@
 /* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
+@font-face {
+  font-family:  'Inter';
+  font-display: swap; 
+  src:
+    local('Inter-Variable.woff2'),
+    url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
+    url('../fonts/Inter-Variable.woff2') format('woff2-variations');
+    font-weight: 400, 785;
+    font-stretch: 50%, 200%;
+ 
+}
+
+@font-face {
+  font-family: 'PressStart2P';
+  src: url(./PressStart2P-Regular.woff) format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+    
+
+
+/*--------------------Примеры---------------------------
+
+@font-face {
+  font-family:  'Roboto-Flex-Variable';
+  font-display: swap; 
+  src:
+    local('Roboto-Flex-Variable'),
+    url('../fonts/Roboto-Flex-Variable.woff2') format('woff2 supports variations'),
+    url('../fonts/Roboto-Flex-Variable.woff2') format('woff2-variations');
+    font-weight: 100, 1000;
+    font-stretch: 50%, 200%;
+ 
+} 
+
+
+/* Устанавливаем значения по умолчанию 
+:root {
+  --wdth: 100;
+  --wght: 400;
+}
+
+/* Переопределяем нужные CSS-переменные 
+.text_width_large {
+  --wdth: 151;
+}
+
+.text_weight_bold {
+  --wght: 900;
+}
+
+/* Применяем наши CSS-переменные 
+.text_width_large,
+.text_weight_bold {
+  font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght);
+} 
