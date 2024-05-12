@@ -7,14 +7,13 @@
 
 
   --bg-image: url(../images/cover-image-da1rk.png);
-  --bg-color: #fde894;
-  --accent-color: #ff0070;
-  --text-color: #252123;
+  --bg-color: #fff;
+  --dialog-bg-color: rgb(0 0 0 / 0.75);
+  --accent-color: #000000;
   --rlg-1-1-color: #d3d3d3;
   --rlg-2-1-color: #e7e7e7;
   --rlg-2-2-color: #1A1A1A;
+  --sparks-color: #FF0000;
 
  
 }
-
-
