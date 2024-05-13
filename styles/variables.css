@@ -2,18 +2,14 @@
 :root {
   --fonts: "Inter";
   --accent-fonts: "PressStart2P";
-  --font-wght-title: 700; 
-  --font-wght-text: 400; 
-
-
+  --font-wght-title: 700;
+  --font-wght-text: 400;
   --bg-image: url(../images/cover-image-da1rk.png);
   --bg-color: #fff;
   --dialog-bg-color: rgb(0 0 0 / 0.75);
   --accent-color: #000000;
   --rlg-1-1-color: #d3d3d3;
   --rlg-2-1-color: #e7e7e7;
-  --rlg-2-2-color: #1A1A1A;
-  --sparks-color: #FF0000;
-
- 
+  --rlg-2-2-color: #1a1a1a;
+  --sparks-color: #ff0000;
 }
