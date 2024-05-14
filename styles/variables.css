@@ -4,7 +4,16 @@
   --accent-fonts: "PressStart2P";
   --font-wght-title: 700;
   --font-wght-text: 400;
-  --bg-image: url(../images/cover-image-da1rk.png);
+  --bg-image: repeating-linear-gradient(
+      90deg,
+      var(--rlg-1-1-color),
+      transparent 2px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      var(--rlg-2-1-color),
+      var(--rlg-2-2-color) 2px
+    );
   --bg-color: #fff;
   --dialog-bg-color: rgb(0 0 0 / 0.75);
   --accent-color: #000000;
