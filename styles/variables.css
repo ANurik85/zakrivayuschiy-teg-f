@@ -6,19 +6,20 @@
   --font-wght-text: 400;
   --bg-image: repeating-linear-gradient(
       90deg,
-      var(--rlg-1-1-color),
+      var(--main-bg-color),
       transparent 2px
     ),
-    repeating-linear-gradient(
-      180deg,
-      var(--rlg-2-1-color),
-      var(--rlg-2-2-color) 2px
+    repeating-linear-gradient(180deg, var(--main-bg-color), transparent 2px),
+    linear-gradient(
+      to bottom,
+      var(--main-bg-grad-color) 0.01%,
+      var(--main-grad-color)
     );
   --bg-color: #fff;
   --dialog-bg-color: rgb(0 0 0 / 0.75);
   --accent-color: #000000;
-  --rlg-1-1-color: #d3d3d3;
-  --rlg-2-1-color: #e7e7e7;
-  --rlg-2-2-color: #1a1a1a;
+  --main-bg-color: #d3d3d3;
+  --main-bg-grad-color: #e7e7e7;
+  --main-grad-color: #1a1a1a;
   --sparks-color: #ff0000;
 }
