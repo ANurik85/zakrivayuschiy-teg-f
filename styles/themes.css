@@ -14,7 +14,7 @@
   --main-bg-color: #d3d3d3;
   --main-bg-grad-color: #e7e7e7;
   --main-grad-color: #1a1a1a;
-  --counter-color: #000000;
+ 
 }
 
 @media (prefers-color-scheme: light) {
@@ -27,7 +27,7 @@
     --main-bg-color: #d3d3d3;
     --main-bg-grad-color: #e7e7e7;
     --main-grad-color: #1a1a1a;
-    --counter-color: #000000;
+    
   }
 }
 
@@ -42,7 +42,7 @@
   --main-bg-color: #000;
   --main-bg-grad-color: #007f0c;
   --main-grad-color: #004306;
-  --counter-color: #00cc14;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,6 +55,6 @@
     --main-bg-color: #000;
     --main-bg-grad-color: #007f0c;
     --main-grad-color: #004306;
-    --counter-color: #00cc14;
+    
   }
 }
