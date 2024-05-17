@@ -5,15 +5,17 @@
   --font-wght-title: 700;
   --font-wght-text: 400;
   --bg-image: repeating-linear-gradient(
-      90deg,
-      var(--main-bg-color),
-      transparent 2px
+      var(--main-bg-color) 0 2px,
+      transparent 2px 4px
     ),
-    repeating-linear-gradient(180deg, var(--main-bg-color), transparent 2px),
+    repeating-linear-gradient(
+      90deg,
+      var(--main-bg-color) 0 2px,
+      transparent 2px 4px
+    ),
     linear-gradient(
-      to bottom,
       var(--main-bg-grad-color) 0.01%,
-      var(--main-grad-color)
+      var(--main-grad-color) 100%
     );
   --bg-color: #fff;
   --dialog-bg-color: rgb(0 0 0 / 0.75);

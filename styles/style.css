@@ -342,7 +342,7 @@
   justify-content: center;
   flex-wrap: wrap;
   cursor: pointer;
-  padding-block: clamp(0.80625rem, 1.3984rem + -0.875vw, 1.125rem);
+  padding-block: clamp(0.88625rem, 1.3984rem + -0.875vw, 1.105rem);
   padding-inline: clamp(0rem, 1.6056rem + -1.784vw, 1.1875rem);
 }
 
@@ -374,10 +374,11 @@
 }
 
 .floppy-svg {
-  height: auto;
-  max-width: clamp(1.6rem, 1.904rem + -0.6573vw, 1.3125rem);
+  /* max-width: clamp(1.6rem, 1.904rem + -0.6573vw, 1.3125rem);*/
   color: var(--btn-diff-color);
   mix-blend-mode: difference;
+  height: clamp(1.3125rem, 1.904rem + -0.6573vw, 1.75rem);
+  width: clamp(1.3125rem, 1.904rem + -0.6573vw, 1.75rem);
 }
 
 .leybl__text {
@@ -414,7 +415,9 @@
   color: var(--accent-color);
   background-color: var(--bg-color);
   font-size: 14px;
-  padding: 30px;
+  padding-inline: clamp(1.875rem, 2.8891rem + -1.1268vw, 2.625rem);
+  padding-block: 30px;
+  margin-block-start: clamp(6.5rem, 17.3169rem + -12.0188vw, 14.5rem);
   gap: 30px;
   border: 2px solid var(--accent-color);
   text-transform: uppercase;
@@ -426,7 +429,7 @@
   gap: 20px;
 }
 
-.floppy-svg-39 {
+.dialog-floppy-svg {
   height: auto;
   max-width: 39px;
 }
