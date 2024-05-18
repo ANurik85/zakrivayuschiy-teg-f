@@ -417,7 +417,6 @@
   font-size: 14px;
   padding-inline: clamp(1.875rem, 2.8891rem + -1.1268vw, 2.625rem);
   padding-block: 30px;
-  margin-block-start: clamp(6.5rem, 17.3169rem + -12.0188vw, 14.5rem);
   gap: 30px;
   border: 2px solid var(--accent-color);
   text-transform: uppercase;
